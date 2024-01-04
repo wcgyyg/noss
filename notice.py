@@ -4,7 +4,7 @@ from pynostr.key import PrivateKey
 import requests
 from win10toast import ToastNotifier
 
-identity_pk = PrivateKey.from_nsec("nsec1rt3we4wgp2qarm985esws45fgdcguzvxpryegp3jarhjh6lrk5cs4gzgsu")
+identity_pk = PrivateKey.from_nsec("nsec1hrgtl3j3mr3znnnx8zf6p0wxmn42vr0lem28l97r2djeteejfrwqu8pdjp")
 
 
 def read():
