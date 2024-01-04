@@ -269,7 +269,7 @@ def check_env():
 if __name__ == "__main__":
     process_list = []
     # 初始化钱包
-    identity_pk = PrivateKey.from_nsec("nsec1rt3we4wgp2qarm985esws45fgdcguzvxpryegp3jarhjh6lrk5cs4gzgsu")
+    identity_pk = PrivateKey.from_nsec("nsec1hrgtl3j3mr3znnnx8zf6p0wxmn42vr0lem28l97r2djeteejfrwqu8pdjp")
     logging.info(f"Public key: {identity_pk.public_key.bech32()}")
     # 开启进程获取event_id的线程
     p1 = multiprocessing.Process(target=open_ws)
