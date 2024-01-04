@@ -219,7 +219,7 @@ def mine_data_and_submit(identity_pk):
         e_copy = Event(
             content="{\"p\":\"nrc-20\",\"op\":\"mint\",\"tick\":\"noss\",\"amt\":\"10\"}",
             kind=1,
-            pubkey="9e7a9563e9fcba5ffb0acad3bf49f80b3530970342c29bbe991d2d5a333cf410",
+            pubkey=identity_pk.public_key.hex(),
             tags=[
                 ["p", "9be107b0d7218c67b4954ee3e6bd9e4dba06ef937a93f684e42f730a0c3d053c"],
                 ["e", "51ed7939a984edee863bfbb2e66fdc80436b000a8ddca442d83e6a2bf1636a95",
